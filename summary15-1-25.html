@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Class 15/1/25</title>
+    <style>
+        h1{
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">this is a summary of the class on 15/1/25</h2>
+    <h3>h1, h2, h3 are used as titles!</h3>
+    <p>ther are 6 sizes of headers (titles), as the number following h goes up, the size goes down</p>
+    <p>Example:</p>
+    <h1>h1</h1>  
+    <h2>h2</h2>  
+    <h3>h3</h3>  
+    <h4>h4</h4>  
+    <h5>h5</h5>  
+    <h6>h6</h6>  
+    <p>in order to use a header, you need to write in your software this code:</p>
+    <p>    &lt;h1&gt; (your title) &lt;/h1&gt;</p>
+
+    
+    
+    <h3>theres also list tags!</h3>
+    <p>to use lists you will first have to define whether its unordered or ordered list</p>
+    <p>&lt;ul&gt; (list title) &lt;/ul&gt; = unordered lists</p>
+    <p>lists that are unordered have their items shown with a * before them</p>
+    <p>&lt;ol&gt; (list title) &lt;/ol&gt; = ordered lists</p>
+    <p>lists that are ordered are numbered by 1,2,3 and so on (1.item1 2.item2)</p>
+    <p>theres probably more types, but we only studied those two so far</p>
+
+
+    <h3>customization</h3>
+    <p>theres an option to customize headers, paragraps, even the background!</p>
+    <p>order to do that, before you close the header with &gt;, you need to add style=.</p> 
+    <p>to change the color, its style="color= (color name/rgb/# tag);" </p>
+    <p>example of how to code a red title:</p>
+    <p>&lt;h1 style="color: red;"&gt; Title &lt;/h1&gt; Title</p>
+    
+    <p>color isnt the only thing you can customize, you can also customize where the text is</p>
+    <p>for example, if you want a title to be in the center, the code would look like this:</p>
+    <p>&lt;h1 style="text-align: center;"&gt; Title</p> 
+    <p>to change background colors its as simple as going into &lt;body&gt; and adding style there</p>
+    <p>if you'd like to combine the two, it would look something like this:</p>
+    <p>&lt;h1 style="color: red; text-align: center;"&gt; Title</p>
+    <p>when coded, the execution will look like this:</p>
+    <h1 style="color: red; text-align: center;"> Title </h1>    
+  
+    <p>for text you can also choose the font size, font family, size, and so on</p>
+    <p>to change the font its style="font-size: 24px;"</p>
+    <p>the px (pixels) unit is used in this demonstration, but there are more units:</p>
+    <p>px, em, rem, %,, vw, and more...</p>
+
+
+
+    <p>another different way to change would be &lt;style&gt;,</p>
+    <p>its done under &lt;title&gt; inside &lt;head&gt;.</p>
+    <p>it affects the deafult setting of types, unless you specify it</p>
+    <p>thats how you should change it for convenience, in order to do it you do this:</p>
+    <p>&lt;style&gt;</p>
+    <p>    h1&#123;</p>
+    <p>        color: red;</p>
+    <p>        text-align: center;</p>
+    <p>        font-size: 24px;</p>
+    <p>    &#125;
+    <p>&lt;/style&gt;
+    <p>dont forget that you will have to specify changes, and stuff shown here would affect all h1's</p>
+    <p>unless coded otherwise.</p>    
+</body>
+</html>
